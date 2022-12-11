@@ -4,3 +4,6 @@ build:
 
 publish:
 	sudo docker push ghcr.io/kevinmidboe/cloudflare-speedtest
+
+run:
+	sudo docker run --rm ghcr.io/kevinmidboe/cloudflare-speedtest
